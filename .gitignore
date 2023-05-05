@@ -1,10 +1,14 @@
+*.tsv
+*.pzfx
+*.gct
 *.txt
+*.tiff
 *.svg
 *.csv
 *.pdf
-*.Rproj
-*.xlsx
+**/*proj*
+*.xls*
 *.RData*
 *.R
 !DGE_Venn_Volcano_heatmap.R
-!*c*.R*
+!c*.R
