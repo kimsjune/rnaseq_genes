@@ -4,3 +4,7 @@
 *.pdf
 *.Rproj
 *.xlsx
+.Rproj.user
+*.R
+!DGE_Venn_Volcano_heatmap.R
+!c*.R
