@@ -7,4 +7,4 @@
 *.RData*
 *.R
 !DGE_Venn_Volcano_heatmap.R
-!c*.R
+!*c*.R*
