@@ -341,11 +341,14 @@ EnhancedVolcano(data.frame(r.res)
                 boxedLabels=F)
 dev.off()               
 
-# heatmaps
-# 
-heatmap.2(cpm(b)[(b.up.in.wt.not.ric),],
+# heatmap
+gene.set <- c("Cx3cl1","Ccl22","Ccl3","Ccl5","Ccl1",
+              "Pla2g7","Pdgfb","Slamf8","Lgals3","Tnfrsf11a",
+              "Dusp1","Rps19","Lgmn","Ccr1")
+heatmap.2(cpm(b)[gene.set,],
           col=colfunc(10), scale="row", Rowv=NA, Colv=NA, 
           cexCol=1, labCol=NA,srtCol=0, adjCol=c(0.5,0),
           density.info = "none",trace="none", dendrogram = "none",
           symkey=FALSE,symbreaks=TRUE,revC = FALSE,
           lhei=c(1.2,5), lwid=c( 4, 10),margins=c(5,10),cexRow=1)
+
