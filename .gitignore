@@ -12,3 +12,6 @@
 *.R
 !DGE_Venn_Volcano_heatmap.R
 !c*.R
+!.gitignore
+!LICENSE
+!README.md
